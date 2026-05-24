@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Design.md Taste System</title>
+  <style>
+    :root { --bg:#080b12; --card:#101827; --ink:#f8fafc; --muted:#94a3b8; --line:#233047; --accent:#8b5cf6; --accent2:#22d3ee; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background: radial-gradient(circle at 20% 0%, #1e1b4b, transparent 36%), var(--bg); color:var(--ink); }
+    .wrap { max-width:1120px; margin:0 auto; padding:40px 20px; }
+    .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:24px; align-items:center; }
+    h1 { font-size: clamp(38px, 7vw, 76px); line-height:.9; margin:0 0 18px; letter-spacing:-.06em; }
+    p { color:var(--muted); font-size:18px; line-height:1.6; }
+    .pill { display:inline-flex; gap:8px; color:#c4b5fd; border:1px solid #4c1d95; background:#2e1065aa; padding:8px 12px; border-radius:999px; font-size:13px; margin-bottom:18px; }
+    .card { background:linear-gradient(180deg, #111827dd, #0f172add); border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 24px 80px #0008; }
+    label { display:block; color:#cbd5e1; font-size:13px; margin:14px 0 6px; }
+    input, textarea, select { width:100%; background:#020617; color:var(--ink); border:1px solid #334155; border-radius:14px; padding:13px 14px; font:inherit; }
+    textarea { min-height:92px; }
+    .btn { margin-top:18px; width:100%; border:0; border-radius:16px; padding:15px; color:white; font-weight:800; background:linear-gradient(90deg,var(--accent),var(--accent2)); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:30px; }
+    .mini { background:#0f172a; border:1px solid var(--line); border-radius:20px; padding:18px; }
+    .mini b { display:block; margin-bottom:8px; }
+    .out { margin-top:26px; display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    code { display:block; white-space:pre-wrap; color:#a7f3d0; background:#020617; padding:16px; border-radius:16px; border:1px solid #064e3b; min-height:160px; }
+    @media (max-width: 800px){ .hero,.grid,.out{grid-template-columns:1fr;} .wrap{padding:24px 14px;} }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <div class="pill">X Intel → DESIGN.md → Consistent AI-built products</div>
+        <h1>Turn taste into an agent-readable design system.</h1>
+        <p>Capture the visual DNA of products you admire, convert it into DESIGN.md, then reuse it across prototypes, landing pages, decks, and skills.</p>
+        <div class="grid">
+          <div class="mini"><b>1. Capture</b><span>Brands, screenshots, adjectives, anti-patterns.</span></div>
+          <div class="mini"><b>2. Compile</b><span>Tokens, components, layout rules, motion style.</span></div>
+          <div class="mini"><b>3. Reuse</b><span>Every artifact gets a taste layer before build.</span></div>
+        </div>
+      </div>
+      <form class="card">
+        <label>Product / artifact</label>
+        <input value="VinClawLabs Mission Control" />
+        <label>Reference brands</label>
+        <input value="Linear, Vercel, Raycast, Stripe" />
+        <label>Personality</label>
+        <select><option>sharp, premium, operator-focused</option></select>
+        <label>What should agents avoid?</label>
+        <textarea>Generic SaaS gradients, random icon soup, low-contrast grey text, bloated dashboards.</textarea>
+        <button class="btn" type="button">Generate DESIGN.md + skill pack</button>
+      </form>
+    </section>
+    <section class="out">
+      <div class="card"><h2>DESIGN.md Preview</h2><code># Taste Recipe
+
+Mood: sharp operator cockpit
+Palette: ink, violet, cyan
+Components: dense cards, crisp borders, command bar
+Rule: every screen must expose next action.</code></div>
+      <div class="card"><h2>Generated Agent Assets</h2><code>- /design/DESIGN.md
+- /skills/taste-system/SKILL.md
+- /templates/landing.html
+- /artifacts/visual-reference.md</code></div>
+    </section>
+  </main>
+</body>
+</html>
