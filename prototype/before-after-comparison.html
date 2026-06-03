@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Design.md Taste System — Before / After Comparison</title>
+  <style>
+    :root {
+      --ink: #eef3ff;
+      --muted: #9aa6bd;
+      --line: rgba(255,255,255,.12);
+      --panel: rgba(14,18,31,.86);
+      --brand: #7cf4ff;
+      --brand-2: #9b7cff;
+      --risk: #ff8c8c;
+      --ok: #7cffb2;
+      --warn: #ffd36e;
+      --bg: #080b13;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 12%, rgba(124,244,255,.18), transparent 28%),
+        radial-gradient(circle at 84% 20%, rgba(155,124,255,.18), transparent 32%),
+        linear-gradient(135deg, #080b13, #111827 60%, #080b13);
+      min-height: 100vh;
+      padding: 28px;
+    }
+    header { max-width: 1120px; margin: 0 auto 22px; }
+    .eyebrow { color: var(--brand); letter-spacing: .14em; text-transform: uppercase; font-size: 12px; font-weight: 800; }
+    h1 { margin: 8px 0 8px; font-size: clamp(30px, 5vw, 54px); line-height: .96; }
+    .lede { color: var(--muted); max-width: 840px; font-size: 17px; line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 1120px; margin: 0 auto; }
+    .screen { border: 1px solid var(--line); border-radius: 28px; padding: 18px; min-height: 600px; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+    .before { background: #f5f7fb; color: #1f2937; }
+    .after { background: var(--panel); backdrop-filter: blur(16px); position: relative; overflow: hidden; }
+    .after::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(124,244,255,.10), transparent 42%, rgba(155,124,255,.12)); pointer-events: none; }
+    .label { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 18px; position: relative; z-index: 1; }
+    .pill { border-radius: 999px; padding: 7px 10px; font-size: 12px; font-weight: 800; }
+    .before .pill { background: #e5e7eb; color: #374151; }
+    .after .pill { background: rgba(124,244,255,.12); color: var(--brand); border: 1px solid rgba(124,244,255,.22); }
+    .before h2, .after h2 { margin: 0; font-size: 22px; position: relative; z-index: 1; }
+    .mock-card { border-radius: 18px; padding: 16px; margin-bottom: 12px; position: relative; z-index: 1; }
+    .before .mock-card { background: white; border: 1px solid #e5e7eb; }
+    .after .mock-card { background: rgba(255,255,255,.06); border: 1px solid var(--line); }
+    .generic-title { font-weight: 700; margin-bottom: 8px; }
+    .bar { height: 11px; border-radius: 999px; margin: 9px 0; }
+    .before .bar { background: #d1d5db; }
+    .after .bar { background: linear-gradient(90deg, var(--brand), var(--brand-2)); box-shadow: 0 0 24px rgba(124,244,255,.24); }
+    .before .button { background: #2563eb; color: white; border-radius: 8px; padding: 12px; text-align: center; margin-top: 14px; }
+    .after .button { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: #050815; border-radius: 999px; padding: 12px; text-align: center; margin-top: 14px; font-weight: 900; }
+    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .metric { border-radius: 16px; padding: 12px; }
+    .before .metric { background: #eef2ff; }
+    .after .metric { background: rgba(0,0,0,.28); border: 1px solid var(--line); }
+    .big { font-size: 24px; font-weight: 900; }
+    .small { color: inherit; opacity: .7; font-size: 12px; margin-top: 4px; }
+    ul { margin: 10px 0 0; padding-left: 18px; line-height: 1.55; }
+    .after li::marker { color: var(--brand); }
+    .takeaway { max-width: 1120px; margin: 18px auto 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .takeaway article { border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.06); padding: 14px; }
+    .takeaway strong { color: var(--brand); }
+    @media (max-width: 820px) { body { padding: 18px; } .grid, .takeaway { grid-template-columns: 1fr; } .screen { min-height: auto; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">X Artifact Factory · Design.md Taste System</div>
+    <h1>Same AI screen, different taste layer.</h1>
+    <p class="lede">This comparison makes the loop’s next focus concrete: the generic AI-generated Mission Control screen is functional, but the Design.md-applied version carries a recognizable VinClawLabs command-center voice, clearer proof metrics, and stronger artifact-routing hierarchy.</p>
+  </header>
+
+  <main class="grid" aria-label="Before and after design comparison">
+    <section class="screen before">
+      <div class="label"><h2>Before: generic AI dashboard</h2><span class="pill">Unspecified taste</span></div>
+      <div class="mock-card">
+        <div class="generic-title">Dashboard</div>
+        <p>Track projects, tasks, and updates in one place.</p>
+        <div class="bar" style="width: 84%"></div><div class="bar" style="width: 64%"></div><div class="bar" style="width: 72%"></div>
+        <div class="button">View details</div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="big">12</div><div class="small">Items</div></div>
+        <div class="metric"><div class="big">4</div><div class="small">Done</div></div>
+        <div class="metric"><div class="big">8</div><div class="small">Open</div></div>
+      </div>
+      <div class="mock-card">
+        <div class="generic-title">Problems</div>
+        <ul>
+          <li>No brand-specific nouns or operating metaphor.</li>
+          <li>Every status has similar visual weight.</li>
+          <li>CTA does not say what the agent should do next.</li>
+          <li>Could belong to any SaaS product.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="screen after">
+      <div class="label"><h2>After: Mission Control via DESIGN.md</h2><span class="pill">Taste recipe applied</span></div>
+      <div class="mock-card">
+        <div class="generic-title">Artifact Factory Command Center</div>
+        <p style="color: var(--muted)">Convert X signals into packages, prototypes, repo commits, and public proof loops.</p>
+        <div class="bar" style="width: 92%"></div><div class="bar" style="width: 77%"></div><div class="bar" style="width: 58%"></div>
+        <div class="button">Launch next artifact run</div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="big" style="color: var(--ok)">3</div><div class="small">Shipped packages</div></div>
+        <div class="metric"><div class="big" style="color: var(--warn)">2</div><div class="small">Loops needing proof</div></div>
+        <div class="metric"><div class="big" style="color: var(--brand)">9.3</div><div class="small">Avg artifact score</div></div>
+      </div>
+      <div class="mock-card">
+        <div class="generic-title">Taste recipe wins</div>
+        <ul>
+          <li>Uses command-center language from the VinClawLabs recipe.</li>
+          <li>Visual hierarchy separates shipped, proof-needed, and high-score work.</li>
+          <li>CTA names the next agent action instead of a generic navigation action.</li>
+          <li>Dark, luminous system style matches the Mission Control prototype family.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <section class="takeaway">
+    <article><strong>Reusable check:</strong> if the screen can be renamed to any startup, the Design.md recipe has not done its job.</article>
+    <article><strong>Agent instruction:</strong> require generated screens to include source-specific nouns, proof metrics, and an action-oriented CTA.</article>
+    <article><strong>Next iteration:</strong> add this before/after check to the skill draft so taste verification becomes procedural.</article>
+  </section>
+</body>
+</html>
