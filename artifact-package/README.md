@@ -43,6 +43,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - Add a real sample `DESIGN.md` for VinClawLabs / Mission Control. ✅ Done.
 - Add one HTML landing-page output generated from that design recipe. ✅ Done with [[../../Prototypes/Design.md Taste System/mission-control-applied|Mission Control Applied HTML Screen]].
 - Add a before/after comparison against a generic AI screen. ✅ Done with [[../../Prototypes/Design.md Taste System/before-after-comparison|Design.md Taste System Before/After Comparison]].
+- Add a before/after taste verification checklist to the skill draft. ✅ Done in [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]].
 - Connect the workflow to `Artifacts/Prototypes` so each new prototype records which design recipe it used.
 - Evaluate whether the draft should become a companion skill to `design-md` after 2-3 successful uses.
 
@@ -51,6 +52,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - 2026-06-02: Added an applied Mission Control screen spec so the DESIGN.md sample can be evaluated against a concrete product screen.
 - 2026-06-03: Converted the applied screen spec into `mission-control-applied.html` for visual evaluation.
 - 2026-06-03: Added `before-after-comparison.html` to make taste drift visible against a generic AI dashboard.
+- 2026-06-03: Added a before/after taste verification checklist to the skill draft so future generated screens require recipe linkage, token adherence, a generic baseline, and concrete deltas.
 
 ## GitHub repo
 

@@ -33,6 +33,16 @@ Use when building a product, landing page, pitch deck, app screen, or promo asse
 4. Generate one sample artifact per skill.
 5. Compare outputs for consistency and patch the design recipe before creating more assets.
 
+## Before/after taste verification checklist
+Use this checklist before treating a generated artifact as proof that the taste system works:
+
+1. **Recipe linkage:** the artifact names the exact `DESIGN.md` recipe, version/date, and product surface it used.
+2. **Token adherence:** typography, color, radius, shadow, spacing, and component density match the recipe instead of drifting to model defaults.
+3. **Generic baseline:** keep or create one intentionally generic AI output for the same screen so the taste lift is visible.
+4. **Specific deltas:** record at least five before → after changes, such as “blue SaaS gradient → ink/ember command palette” or “equal cards → priority ladder.”
+5. **Cross-surface consistency:** verify the same rules work on at least two asset types before expanding the skill pack.
+6. **Patch loop:** if two or more checks fail, patch `DESIGN.md` first; do not compensate with one-off prompt adjectives.
+
 ## Pitfalls
 - Do not copy a reference brand; translate design language into original constraints.
 - Avoid generic words like beautiful/premium unless tied to observable rules.
@@ -42,4 +52,5 @@ Use when building a product, landing page, pitch deck, app screen, or promo asse
 - `DESIGN.md` has typography, color, spacing, components, voice, and don't-do rules.
 - Each generated artifact explicitly links back to the design recipe.
 - Before/after comparison shows reduced visual drift.
+- The verification checklist has a pass/fail note and at least five concrete before → after deltas.
 ```
