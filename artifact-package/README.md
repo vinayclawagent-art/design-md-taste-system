@@ -24,6 +24,7 @@ This turns a strong X thread into a concrete VinClawLabs workflow: capture brand
 ## Generated artifacts
 - Prototype: [[../../Prototypes/Design.md Taste System/README|Design.md Taste System Prototype]] (`index.html`)
 - Applied spec: [[../../Prototypes/Design.md Taste System/Mission Control Applied Screen Spec|Mission Control Applied Screen Spec]]
+- Applied HTML screen: [[../../Prototypes/Design.md Taste System/mission-control-applied|Mission Control Applied HTML Screen]]
 - Infographic: [[../../Infographics/Design.md Taste System Workflow|Design.md Taste System Workflow]]
 - Skill draft: [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]]
 - Improvement loop: [[../../Improvement-Loops/Design.md Taste System Loop|Design.md Taste System Loop]]
@@ -46,6 +47,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 ## Change log
 - 2026-05-24: Created package, clickable prototype, infographic, skill draft, and improvement loop.
 - 2026-06-02: Added an applied Mission Control screen spec so the DESIGN.md sample can be evaluated against a concrete product screen.
+- 2026-06-03: Converted the applied screen spec into `mission-control-applied.html` for visual evaluation.
 
 ## GitHub repo
 

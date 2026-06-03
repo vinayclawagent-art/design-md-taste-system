@@ -1,42 +1,25 @@
 # Design.md Taste System
 
-Turn visual taste into agent-readable DESIGN.md recipes and reusable AI product design assets.
+GitHub-published X Artifact Factory package.
 
-Inspired by an X-Intel capture and extracted from Vinay's local artifact factory.
+## Why this exists
+Inspired by the linked X-Intel source note and maintained from `/home/vinclaw/Documents/Obsidian/x-intel`.
 
-## What's inside
-
-- `artifact-package/` — source-linked product/artifact package notes
-- `prototype/` — clickable or runnable prototype assets
-- `infographic/` — visual explanation assets, when available
-- `skill-draft/` — reusable Hermes skill draft, when available
-- `improvement-loop/` — recurring improvement tracker, when available
+## What it contains
+- `artifact-package/` — package note and product framing
+- `prototype/` — clickable or inspectable prototype artifacts
+- `infographic/` — workflow explanation when available
+- `skill-draft/` — reusable-agent procedure draft when available
+- `improvement-loop/` — recurring improvement tracker when available
 
 ## Quickstart
-
-If `prototype/index.html` exists, open it directly in a browser:
+Open files directly. For HTML prototypes:
 
 ```bash
-xdg-open prototype/index.html
+python3 -m http.server 8080
 ```
 
-No build step is required for the current static prototypes.
+Then visit `http://localhost:8080/prototype/` or open the HTML file.
 
-## Source and provenance
-
-This repo was generated from:
-
-`/home/vinclaw/Documents/Obsidian/x-intel/Artifacts/Generated-Packages/Design.md Taste System/`
-
-The goal is to isolate each X-derived idea as its own GitHub-visible artifact so improvements show up as separate repo activity.
-
-## Roadmap
-
-- [ ] Harden prototype into a real product experiment
-- [ ] Add screenshots/demo link
-- [ ] Add automated quality checks if the prototype becomes code-heavy
-- [ ] Promote useful workflow pieces into installed Hermes skills
-
-## License
-
-MIT
+## Source
+This repo is synced from Vinay's X-Intel Artifact Factory vault.
