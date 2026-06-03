@@ -10,6 +10,11 @@ What it demonstrates:
 - A productizable workflow for making agent-built products visually consistent.
 
 Next iterations:
-- Add a real sample DESIGN.md for VinClawLabs.
+- Convert [[Mission Control Applied Screen Spec]] into an updated HTML screen.
 - Add export buttons.
 - Host on here.now when ready for visual review.
+
+## Design recipe artifacts
+
+- [[VinClawLabs Mission Control DESIGN.md Sample]] — the concrete brand/taste recipe for VinClawLabs Mission Control.
+- [[Mission Control Applied Screen Spec]] — applies the recipe to an Artifact Factory Command Center screen with proof metrics, status colors, and anti-pattern checks.

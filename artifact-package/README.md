@@ -6,7 +6,8 @@ source_url: "https://x.com/gregisenberg/status/2052110589682749869"
 score: 10
 artifact_tracks: [prototype, infographic, skill]
 improvement_cadence: nightly
-last_improved: 2026-05-24
+last_improved: 2026-06-02
+github_repo: "https://github.com/vinayclawagent-art/design-md-taste-system"
 tags: [artifact-package, x-intel, design-md, ai-product]
 ---
 
@@ -22,6 +23,7 @@ This turns a strong X thread into a concrete VinClawLabs workflow: capture brand
 
 ## Generated artifacts
 - Prototype: [[../../Prototypes/Design.md Taste System/README|Design.md Taste System Prototype]] (`index.html`)
+- Applied spec: [[../../Prototypes/Design.md Taste System/Mission Control Applied Screen Spec|Mission Control Applied Screen Spec]]
 - Infographic: [[../../Infographics/Design.md Taste System Workflow|Design.md Taste System Workflow]]
 - Skill draft: [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]]
 - Improvement loop: [[../../Improvement-Loops/Design.md Taste System Loop|Design.md Taste System Loop]]
@@ -36,10 +38,15 @@ A workflow diagram showing: inspiration capture → `Design.md` recipe → skill
 Keep as a draft for now because a `design-md` skill already exists. This draft focuses on productizing a brand taste pack around that skill rather than duplicating the file-format validator.
 
 ## Improvement backlog
-- Add a real sample `DESIGN.md` for VinClawLabs / Mission Control.
-- Add one HTML landing-page output generated from that design recipe.
+- Add a real sample `DESIGN.md` for VinClawLabs / Mission Control. ✅ Done.
+- Add one HTML landing-page output generated from that design recipe. ✅ Started with [[../../Prototypes/Design.md Taste System/Mission Control Applied Screen Spec|Mission Control Applied Screen Spec]]; next convert to HTML.
 - Connect the workflow to `Artifacts/Prototypes` so each new prototype records which design recipe it used.
 - Evaluate whether the draft should become a companion skill to `design-md` after 2-3 successful uses.
 
 ## Change log
 - 2026-05-24: Created package, clickable prototype, infographic, skill draft, and improvement loop.
+- 2026-06-02: Added an applied Mission Control screen spec so the DESIGN.md sample can be evaluated against a concrete product screen.
+
+## GitHub repo
+
+https://github.com/vinayclawagent-art/design-md-taste-system
