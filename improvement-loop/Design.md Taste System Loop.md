@@ -25,7 +25,8 @@ Continuously turn the `Design.md` taste-layer idea into reusable VinClawLabs pro
 2. Generate one product screen from that recipe. ✅ Started via [[../Prototypes/Design.md Taste System/Mission Control Applied Screen Spec|Mission Control Applied Screen Spec]].
 3. Add a before/after comparison against a generic AI screen. ✅ Done via [[../Prototypes/Design.md Taste System/before-after-comparison|Design.md Taste System Before/After Comparison]].
 4. Add a before/after taste verification checklist to the skill draft. ✅ Done in [[../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]].
-5. Decide whether the skill draft should be promoted as a companion to the existing `design-md` skill.
+5. Use the taste verification checklist on the applied generated screen. ✅ Done via [[../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]].
+6. Decide whether the skill draft should be promoted as a companion to the existing `design-md` skill.
 
 ## Latest useful change
 - 2026-05-24: Created the first prototype, workflow infographic, and draft skill candidate.
@@ -34,3 +35,4 @@ Continuously turn the `Design.md` taste-layer idea into reusable VinClawLabs pro
 - 2026-06-03: Added [[../Prototypes/Design.md Taste System/mission-control-applied|Mission Control Applied HTML Screen]] as the first concrete generated screen from the taste recipe.
 - 2026-06-03: Added [[../Prototypes/Design.md Taste System/before-after-comparison|Design.md Taste System Before/After Comparison]] to show how the taste layer changes a generic AI dashboard.
 - 2026-06-03: Tightened the [[../Skills/design-md-taste-system/SKILL|skill draft]] with a before/after taste verification checklist so future outputs must prove recipe adherence instead of relying on vibes.
+- 2026-06-03: Ran the checklist on `mission-control-applied.html` and recorded pass/fail deltas in [[../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]].
