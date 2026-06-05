@@ -18,7 +18,7 @@ Next iterations:
 
 - [[VinClawLabs Mission Control DESIGN.md Sample]] — the concrete brand/taste recipe for VinClawLabs Mission Control.
 - [[Mission Control Applied Screen Spec]] — applies the recipe to an Artifact Factory Command Center screen with proof metrics, status colors, and anti-pattern checks.
-- `mission-control-applied.html` — the first concrete applied screen.
+- `mission-control-applied.html` — the first concrete applied screen, now with a visible recipe-provenance chip.
 - `before-after-comparison.html` — a side-by-side taste verification artifact that contrasts a generic AI dashboard with the Design.md-applied Mission Control screen.
 - [[Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]] — pass/fail evidence for the applied screen, including concrete deltas against the generic baseline and one follow-up provenance-chip improvement.
 
@@ -33,4 +33,5 @@ Use the before/after comparison before accepting a generated UI:
 
 ## Latest verification run
 
-- 2026-06-03: `mission-control-applied.html` passed the taste verification checklist. The strongest deltas were VinClawLabs-specific artifact-factory nouns, proof/repo-sync metrics above generic activity counts, and CTAs that describe concrete agent actions. Follow-up: add a visible recipe-provenance chip to future generated HTML screens.
+- 2026-06-03: `mission-control-applied.html` passed the taste verification checklist. The strongest deltas were VinClawLabs-specific artifact-factory nouns, proof/repo-sync metrics above generic activity counts, and CTAs that describe concrete agent actions.
+- 2026-06-05: Implemented the follow-up by adding a visible recipe-provenance chip to `mission-control-applied.html`, tying the screen to the VinClawLabs Mission Control DESIGN.md sample and checklist.

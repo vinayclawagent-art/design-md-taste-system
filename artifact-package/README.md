@@ -24,7 +24,7 @@ This turns a strong X thread into a concrete VinClawLabs workflow: capture brand
 ## Generated artifacts
 - Prototype: [[../../Prototypes/Design.md Taste System/README|Design.md Taste System Prototype]] (`index.html`)
 - Applied spec: [[../../Prototypes/Design.md Taste System/Mission Control Applied Screen Spec|Mission Control Applied Screen Spec]]
-- Applied HTML screen: [[../../Prototypes/Design.md Taste System/mission-control-applied|Mission Control Applied HTML Screen]]
+- Applied HTML screen: [[../../Prototypes/Design.md Taste System/mission-control-applied|Mission Control Applied HTML Screen]] with recipe-provenance chip
 - Before/after comparison: [[../../Prototypes/Design.md Taste System/before-after-comparison|Design.md Taste System Before/After Comparison]]
 - Taste verification pass: [[../../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]]
 - Infographic: [[../../Infographics/Design.md Taste System Workflow|Design.md Taste System Workflow]]
@@ -46,7 +46,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - Add a before/after comparison against a generic AI screen. ✅ Done with [[../../Prototypes/Design.md Taste System/before-after-comparison|Design.md Taste System Before/After Comparison]].
 - Add a before/after taste verification checklist to the skill draft. ✅ Done in [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]].
 - Run the checklist on the generated Mission Control screen and record deltas. ✅ Done in [[../../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]].
-- Connect the workflow to `Artifacts/Prototypes` so each new prototype records which design recipe it used.
+- Connect the workflow to `Artifacts/Prototypes` so each new prototype records which design recipe it used. ✅ Started by adding a visible recipe-provenance chip to `mission-control-applied.html`.
 - Evaluate whether the draft should become a companion skill to `design-md` after 2-3 successful uses.
 
 ## Change log
@@ -56,6 +56,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - 2026-06-03: Added `before-after-comparison.html` to make taste drift visible against a generic AI dashboard.
 - 2026-06-03: Added a before/after taste verification checklist to the skill draft so future generated screens require recipe linkage, token adherence, a generic baseline, and concrete deltas.
 - 2026-06-03: Ran a taste verification pass on `mission-control-applied.html`; it passed with a follow-up to add recipe-provenance chips to future generated screens.
+- 2026-06-05: Added the recipe-provenance chip to `mission-control-applied.html`, making the taste source auditable in the artifact itself.
 
 ## GitHub repo
 
