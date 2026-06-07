@@ -27,6 +27,7 @@ This turns a strong X thread into a concrete VinClawLabs workflow: capture brand
 - Applied HTML screen: [[../../Prototypes/Design.md Taste System/mission-control-applied|Mission Control Applied HTML Screen]] with recipe-provenance chip
 - Before/after comparison: [[../../Prototypes/Design.md Taste System/before-after-comparison|Design.md Taste System Before/After Comparison]]
 - Taste verification pass: [[../../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]]
+- Recipe provenance gate: [[../../Prototypes/Design.md Taste System/Recipe Provenance Acceptance Gate|Recipe Provenance Acceptance Gate]]
 - Infographic: [[../../Infographics/Design.md Taste System Workflow|Design.md Taste System Workflow]]
 - Skill draft: [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]]
 - Improvement loop: [[../../Improvement-Loops/Design.md Taste System Loop|Design.md Taste System Loop]]
@@ -47,6 +48,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - Add a before/after taste verification checklist to the skill draft. ✅ Done in [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]].
 - Run the checklist on the generated Mission Control screen and record deltas. ✅ Done in [[../../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]].
 - Connect the workflow to `Artifacts/Prototypes` so each new prototype records which design recipe it used. ✅ Started by adding a visible recipe-provenance chip to `mission-control-applied.html`.
+- Require a repeatable provenance acceptance gate before approving future Design.md-generated screens. ✅ Prepared with [[../../Prototypes/Design.md Taste System/Recipe Provenance Acceptance Gate|Recipe Provenance Acceptance Gate]].
 - Evaluate whether the draft should become a companion skill to `design-md` after 2-3 successful uses.
 
 ## Change log
@@ -57,6 +59,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - 2026-06-03: Added a before/after taste verification checklist to the skill draft so future generated screens require recipe linkage, token adherence, a generic baseline, and concrete deltas.
 - 2026-06-03: Ran a taste verification pass on `mission-control-applied.html`; it passed with a follow-up to add recipe-provenance chips to future generated screens.
 - 2026-06-05: Added the recipe-provenance chip to `mission-control-applied.html`, making the taste source auditable in the artifact itself.
+- 2026-06-07: Added the Recipe Provenance Acceptance Gate so future Design.md-generated screens have a copyable acceptance standard before being marked validated.
 
 ## GitHub repo
 

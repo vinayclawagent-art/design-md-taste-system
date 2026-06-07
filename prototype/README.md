@@ -21,6 +21,7 @@ Next iterations:
 - `mission-control-applied.html` — the first concrete applied screen, now with a visible recipe-provenance chip.
 - `before-after-comparison.html` — a side-by-side taste verification artifact that contrasts a generic AI dashboard with the Design.md-applied Mission Control screen.
 - [[Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]] — pass/fail evidence for the applied screen, including concrete deltas against the generic baseline and one follow-up provenance-chip improvement.
+- [[Recipe Provenance Acceptance Gate]] — a reusable acceptance gate for the next Design.md-generated screen, requiring a visible recipe chip, recipe-specific nouns, CTA proof, and a generic-baseline delta before acceptance.
 
 ## Taste verification checklist
 
@@ -35,3 +36,4 @@ Use the before/after comparison before accepting a generated UI:
 
 - 2026-06-03: `mission-control-applied.html` passed the taste verification checklist. The strongest deltas were VinClawLabs-specific artifact-factory nouns, proof/repo-sync metrics above generic activity counts, and CTAs that describe concrete agent actions.
 - 2026-06-05: Implemented the follow-up by adding a visible recipe-provenance chip to `mission-control-applied.html`, tying the screen to the VinClawLabs Mission Control DESIGN.md sample and checklist.
+- 2026-06-07: Added [[Recipe Provenance Acceptance Gate]] so future generated screens must show recipe lineage before being marked accepted.
