@@ -4,8 +4,8 @@ status: active
 source_package: "[[../Generated-Packages/Design.md Taste System/README|Design.md Taste System]]"
 source_note: "[[../../Threads/Design.md as a Taste Layer for AI-Built Startups|Design.md as a Taste Layer for AI-Built Startups]]"
 cadence: nightly
-last_improved: 2026-06-07
-next_focus: "Use the Recipe Provenance Acceptance Gate on the next Design.md-generated prototype before marking the screen accepted."
+last_improved: 2026-06-08
+next_focus: "Fill [[../Prototypes/Design.md Taste System/Design.md Screen Review Trial Packet|Design.md Screen Review Trial Packet]] and the Recipe Provenance Acceptance Gate on the next Design.md-generated prototype before marking the screen accepted."
 tags: [improvement-loop, design-md, agent-workflow]
 ---
 
@@ -28,7 +28,8 @@ Continuously turn the `Design.md` taste-layer idea into reusable VinClawLabs pro
 5. Use the taste verification checklist on the applied generated screen. ✅ Done via [[../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]].
 6. Add a visible recipe-provenance chip to the accepted applied screen. ✅ Done in `mission-control-applied.html`.
 7. Convert the provenance-chip lesson into a repeatable acceptance gate. ✅ Done via [[../Prototypes/Design.md Taste System/Recipe Provenance Acceptance Gate|Recipe Provenance Acceptance Gate]].
-8. Decide whether the skill draft should be promoted as a companion to the existing `design-md` skill.
+8. Add a single trial packet that sequences recipe provenance, generic-baseline delta, and acceptance notes for the next screen review. ✅ Done via [[../Prototypes/Design.md Taste System/Design.md Screen Review Trial Packet|Design.md Screen Review Trial Packet]].
+9. Decide whether the skill draft should be promoted as a companion to the existing `design-md` skill.
 
 ## Latest useful change
 - 2026-05-24: Created the first prototype, workflow infographic, and draft skill candidate.
@@ -40,8 +41,10 @@ Continuously turn the `Design.md` taste-layer idea into reusable VinClawLabs pro
 - 2026-06-03: Ran the checklist on `mission-control-applied.html` and recorded pass/fail deltas in [[../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]].
 - 2026-06-05: Implemented the checklist follow-up by adding a visible recipe-provenance chip to `mission-control-applied.html`.
 - 2026-06-07: Added [[../Prototypes/Design.md Taste System/Recipe Provenance Acceptance Gate|Recipe Provenance Acceptance Gate]] to require visible recipe lineage, recipe-specific nouns, CTA proof, and a generic-baseline delta before accepting future screens.
+- 2026-06-08: Added [[../Prototypes/Design.md Taste System/Design.md Screen Review Trial Packet|Design.md Screen Review Trial Packet]] so the next screen review has one canonical evidence path before package or skill-promotion updates.
 
 ## Nightly improvement log
 - 2026-06-04: Added next taste-check: compare every prototype against one explicit DESIGN.md token before publishing.
 - 2026-06-05: Closed the provenance-chip follow-up; next verification pass should reject screens that do not show recipe lineage in the UI.
 - 2026-06-07: Prepared the repeatable provenance acceptance gate; next real screen review should fill it rather than treating provenance as a vibe check.
+- 2026-06-08: Prepared the screen review trial packet; next real Design.md-generated screen review should fill the packet plus gate before marking acceptance.
