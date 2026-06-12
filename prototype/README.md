@@ -23,6 +23,7 @@ Next iterations:
 - [[Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]] — pass/fail evidence for the applied screen, including concrete deltas against the generic baseline and one follow-up provenance-chip improvement.
 - [[Recipe Provenance Acceptance Gate]] — a reusable acceptance gate for the next Design.md-generated screen, requiring a visible recipe chip, recipe-specific nouns, CTA proof, and a generic-baseline delta before acceptance.
 - [[Design.md Screen Review Trial Packet]] — sequences the recipe, screen spec, provenance gate, evidence fields, and copyable acceptance note for the next real Design.md-generated screen review.
+- [[Design.md Post-Trial Debrief Template]] — converts the future filled packet and acceptance gate into an accept / patch / iterate / reject decision plus concrete token/prototype/skill patch queue.
 
 ## Taste verification checklist
 
@@ -39,3 +40,4 @@ Use the before/after comparison before accepting a generated UI:
 - 2026-06-05: Implemented the follow-up by adding a visible recipe-provenance chip to `mission-control-applied.html`, tying the screen to the VinClawLabs Mission Control DESIGN.md sample and checklist.
 - 2026-06-07: Added [[Recipe Provenance Acceptance Gate]] so future generated screens must show recipe lineage before being marked accepted.
 - 2026-06-08: Added [[Design.md Screen Review Trial Packet]] so the next real Design.md screen review has one evidence path before any package changelog or skill-promotion decision is updated.
+- 2026-06-11: Added [[Design.md Post-Trial Debrief Template]] so the next real screen review remains template-ready and evidence-based before changing package claims or skill-promotion status.

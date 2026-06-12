@@ -6,7 +6,7 @@ source_url: "https://x.com/gregisenberg/status/2052110589682749869"
 score: 10
 artifact_tracks: [prototype, infographic, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-08
+last_improved: 2026-06-11
 github_repo: "https://github.com/vinayclawagent-art/design-md-taste-system"
 tags: [artifact-package, x-intel, design-md, ai-product]
 ---
@@ -29,6 +29,7 @@ This turns a strong X thread into a concrete VinClawLabs workflow: capture brand
 - Taste verification pass: [[../../Prototypes/Design.md Taste System/Taste Verification Pass - Mission Control Applied Screen|Taste Verification Pass - Mission Control Applied Screen]]
 - Recipe provenance gate: [[../../Prototypes/Design.md Taste System/Recipe Provenance Acceptance Gate|Recipe Provenance Acceptance Gate]]
 - Screen review trial packet: [[../../Prototypes/Design.md Taste System/Design.md Screen Review Trial Packet|Design.md Screen Review Trial Packet]]
+- Post-trial debrief: [[../../Prototypes/Design.md Taste System/Design.md Post-Trial Debrief Template|Design.md Post-Trial Debrief Template]]
 - Infographic: [[../../Infographics/Design.md Taste System Workflow|Design.md Taste System Workflow]]
 - Skill draft: [[../../Skills/design-md-taste-system/SKILL|design-md-taste-system skill draft]]
 - Improvement loop: [[../../Improvement-Loops/Design.md Taste System Loop|Design.md Taste System Loop]]
@@ -51,6 +52,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - Connect the workflow to `Artifacts/Prototypes` so each new prototype records which design recipe it used. ✅ Started by adding a visible recipe-provenance chip to `mission-control-applied.html`.
 - Require a repeatable provenance acceptance gate before approving future Design.md-generated screens. ✅ Prepared with [[../../Prototypes/Design.md Taste System/Recipe Provenance Acceptance Gate|Recipe Provenance Acceptance Gate]].
 - Add a single trial packet for the next Design.md-generated screen review so provenance, generic-baseline delta, and acceptance notes are captured together. ✅ Prepared with [[../../Prototypes/Design.md Taste System/Design.md Screen Review Trial Packet|Design.md Screen Review Trial Packet]].
+- Add a post-trial debrief so completed screen reviews become explicit accept / patch / iterate / reject decisions and patch queues. ✅ Prepared with [[../../Prototypes/Design.md Taste System/Design.md Post-Trial Debrief Template|Design.md Post-Trial Debrief Template]].
 - Evaluate whether the draft should become a companion skill to `design-md` after 2-3 successful uses.
 
 ## Change log
@@ -63,6 +65,7 @@ Keep as a draft for now because a `design-md` skill already exists. This draft f
 - 2026-06-05: Added the recipe-provenance chip to `mission-control-applied.html`, making the taste source auditable in the artifact itself.
 - 2026-06-07: Added the Recipe Provenance Acceptance Gate so future Design.md-generated screens have a copyable acceptance standard before being marked validated.
 - 2026-06-08: Added [[../../Prototypes/Design.md Taste System/Design.md Screen Review Trial Packet|Design.md Screen Review Trial Packet]] to sequence the next real screen review without inventing validation evidence.
+- 2026-06-11: Added [[../../Prototypes/Design.md Taste System/Design.md Post-Trial Debrief Template|Design.md Post-Trial Debrief Template]] so the next real Design.md screen review has a template-ready path from evidence to accept / patch / iterate / reject before package or skill-promotion changes.
 
 ## GitHub repo
 
